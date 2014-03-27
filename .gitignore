@@ -1,0 +1,11 @@
+build
+composer.lock
+composer.phar
+tests/build
+nbproject
+vendor
+logs
+.settings
+.buildpath
+.project
+.idea

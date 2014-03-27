@@ -1,0 +1,22 @@
+{% extends "layouts/default.twig" %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="span12">
+            <form action="/Auth/SignIn" method="POST">
+              <fieldset>
+                <legend>Login</legend>
+                <label>User e-mail:</label>
+                <input name="email" type="text" placeholder="user-email@siteapps.com">
+
+                <label>Password:</label>
+                <input name="password" type="password" placeholder="**********">
+                <span class="help-block"></span>
+
+                <button type="submit" class="btn">Log in</button>
+              </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <title>{% block title %}silex-scaffolding-mvc project{% endblock %}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="/css/default.css">
+        
+        {% endblock %}
+    </head>
+    <body>
+        {% block header%}
+            {% include "layouts/partials/top.twig"%}
+        {% endblock %}
+        
+        {% block content%}
+        {% endblock %}
+        
+        {% block footer %}
+            
+        {% endblock %}
+        {% block js%}
+        {% endblock %}
+    </body>
+</html>
